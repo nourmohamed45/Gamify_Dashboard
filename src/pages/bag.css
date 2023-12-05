@@ -1,0 +1,64 @@
+.bag {
+  padding: 20px 0px;
+}
+
+.bag .row {
+  max-width: 100%;
+}
+
+.shopBagTable {
+  text-align: center;
+  margin-top: 20px;
+  color: #ffffff;
+  border-radius: 20px;
+  background: var(--bgColor);
+  box-shadow: -5px -5px 15px rgba(255,255,255, 0.1),
+  5px 5px 15px rgba(0,0,0,0.35);
+  overflow-y: scroll;
+}
+
+.shopBagTable thead tr {
+  font-size: 1.3rem;
+}
+
+.shopBagTable thead tr th {
+  background: transparent;
+  color: #ffffff;
+}
+
+.itemCount {
+  font-size: 1.3rem;
+}
+
+.payment {
+  display: inline-flex;
+  align-items: center;
+  gap: 50px;
+  font-size: 1.3rem;
+  color: #ffffff;
+}
+
+.payment a {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 15px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--bgColor);
+  box-shadow: -5px -5px 15px rgba(255,255,255, 0.1),
+  5px 5px 15px rgba(0,0,0,0.35);
+}
+
+@media (width < 610px) {
+  .bag.active {
+    top: 215px;
+  }
+}
+
+@media (408px < width < 610px) {
+  .bag.active {
+    top: 150px;
+  }
+}

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://db.onlinewebfonts.com/c/3066b11123e63381b8e2aa554b18bf32?family=Bauhaus+93+V1');
+
+:root {
+  --primary: #0d171f;
+  --second: #0998a8;
+  --bgColor: #192938;
+}
+
+h1,
+h2,
+h4,
+p {
+  color: #ffffff !important;
+}
+
+body {
+  background: var(--bgColor);
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  height: 1.1rem;
+  width: 1.1rem;
+}
+
+::-webkit-scrollbar-track {
+  border: 7px solid white;
+  border-radius: .5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 1rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--second)
+}

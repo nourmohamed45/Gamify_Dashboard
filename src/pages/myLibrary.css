@@ -1,0 +1,15 @@
+.library h2 {
+  text-align: center;
+}
+
+@media (width < 610px) {
+  .library.active {
+    top: 215px;
+  }
+}
+
+@media (408px < width < 610px) {
+  .library.active {
+    top: 150px;
+  }
+}
