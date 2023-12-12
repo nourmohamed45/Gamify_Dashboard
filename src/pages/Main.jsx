@@ -43,7 +43,7 @@ function Main() {
   }, []);
 
   const fetchData = async() => {
-    await fetch(`http://localhost:5173/api/gamesData.json`)
+    await fetch(`/api/gamesData.json`)
       .then((response) => response.json())
       .then((data) => {
         setGames(data);
